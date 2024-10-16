@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1, h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#file-input {
+    margin-bottom: 15px;
+}
+
+#analyze-btn, #search-btn {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#analyze-btn:hover, #search-btn:hover {
+    background-color: #45a049;
+}
+
+#search-section {
+    margin-top: 30px;
+    text-align: left;
+}
+
+#search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#search-results {
+    color: #333;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#analysis-output {
+    white-space: pre-wrap;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    max-height: 300px;
+    overflow-y: auto;
+    text-align: left;
+    border-radius: 5px;
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+}
+
+input[type="file"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
